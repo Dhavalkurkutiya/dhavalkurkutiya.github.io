@@ -1,0 +1,148 @@
+<!--Doctype html-->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, intial-scale=1.0">
+
+  <!--   Android Chrome  -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <!--   IOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <!-- Stylesheet Add -->
+  <link rel="stylesheet" href="../../assets/css/pages/html.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="../../assets/css/prism/prism.css" />
+  <!--fav-icon-->
+  <link rel="shortcut icon" href="../../favicon/fav-icon.png" />
+  <!-- Title -->
+  <title>CSS Box Model, Margin and Padding</title>
+</head>
+<body>
+  <section class="main">
+    <!--navigation-->
+    <nav>
+      <!--logo-->
+      <a href="../../index.html" class="logo">
+        <img src="../../logo/logo.png" />
+      </a>
+      <!--menu-btn-->
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn">
+        <span class="nav-icon"></span>
+      </label>
+      <!--menu-->
+      <ul class="menu">
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="../../about.html">About</a></li>
+        <li><a href="../../contact.html">Contact</a></li>
+        <li><a href="../../privacypolicy.html">Privacy Policy</a></li>
+      </ul>
+    </nav>
+    <!--box-container-->
+    <div class="box-container">
+      <h1 class="title">CSS Box Model, Margin and Padding</h1>
+      <pre class="line-numbers language-markup">
+        <code>
+          &lt;!DOCTYPE html&gt;
+          &lt;html lang=&quot;en&quot;&gt;
+          &lt;head&gt;
+            &lt;meta charset=&quot;UTF-8&quot;&gt;
+            &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+            &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot;&gt;
+            &lt;title&gt;Box Model&lt;/title&gt;
+            &lt;style&gt;
+              
+            &lt;/style&gt;
+          &lt;/head&gt;
+          &lt;body&gt;
+            &lt;div class=&quot;container&quot;&gt;
+              &lt;h3&gt;This is my heading&lt;/h3&gt;
+              &lt;p id=&quot;first&quot;&gt;
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt harum quis, quibusdam, minima molestiae tempore vel magni, repellendus doloribus debitis rerum tenetur eveniet.
+              &lt;/p&gt;
+            &lt;/div&gt;
+          
+            &lt;div class=&quot;container&quot;&gt;
+              &lt;h3&gt;This is my heading&lt;/h3&gt;
+              &lt;p id=&quot;second&quot;&gt;
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt harum quis, quibusdam, minima molestiae tempore vel magni, repellendus doloribus debitis rerum tenetur eveniet.
+              &lt;/p&gt;
+            &lt;/div&gt;
+          
+            &lt;div class=&quot;container&quot;&gt;
+              &lt;h3&gt;This is my heading&lt;/h3&gt;
+              &lt;p id=&quot;third&quot;&gt;
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt harum quis, quibusdam, minima molestiae tempore vel magni, repellendus doloribus debitis rerum tenetur eveniet.
+              &lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/body&gt;
+          &lt;/html&gt;
+        </code>
+      </pre>
+      <pre class="line-numbers language-css">
+        <code>
+          * {
+              box-sizing: border-box;
+              margin: 0;
+              padding: 0;
+            }
+            body {
+              background-color: #ffffff;
+            }
+          
+            .container {
+              background-color: #edeef6;
+              border: 3px #edeef6;
+          
+              /* 
+              We can set margin/padding for  top, bottom, left and right like this 
+              */
+              
+              /* 
+              padding-top: 79px;
+                padding-bottom: 79px;
+                padding-left: 34px;
+                padding-right: 79px;
+              */
+          
+              /* 
+               margin-top: 3px;
+                margin-bottom: 5px;
+                margin-left: 34px;
+                margin-right:5px ;
+              */
+          
+              /* margin = top right bottom left;  */
+              /* padding = top right bottom left;  */
+          
+              /* padding: 23px 56px 6px 78px;   */
+              /* margin: 23px 56px 6px 78px;   */
+          
+              /* padding: y(top/bottom) x(left/right); */
+              /* margin: y(top/bottom) x(left/right); */
+                padding: 34px 19px;
+                margin: 14px auto;
+                border-radius: 23px;
+                width: 533px;
+            }
+        </code>
+      </pre>
+      <pre class="line-numbers language-javascript">
+        <code>
+          # No source code
+        </code>
+      </pre>
+    </div>
+    <div class="navigationBox" id="navigationBox">
+      <a  id="backPage" class="left" href="#">Back</a>
+      <a  id="nextPage" class="right" href="02_Console Loges Errors Warning.html">Next</a>
+    </div>
+  </section>
+  <!-- script -->
+  <script src="../../assets/js/prism/prism.js" type="text/javascript" charset="utf-8"></script>
+  <script src="../../assets/js/pages/html.js" type="text/javascript" charset="utf-8"></script>
+  <!-- script -->
+</body>
+</html>

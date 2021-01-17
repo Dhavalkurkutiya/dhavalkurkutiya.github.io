@@ -1,0 +1,188 @@
+<!--Doctype html-->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, intial-scale=1.0">
+
+  <!--   Android Chrome  -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <!--   IOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <!-- Stylesheet Add -->
+  <link rel="stylesheet" href="../../assets/css/pages/html.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="../../assets/css/prism/prism.css" />
+  <!--fav-icon-->
+  <link rel="shortcut icon" href="../../favicon/fav-icon.png" />
+  <!-- Title -->
+  <title>CSS Flexbox</title>
+</head>
+<body>
+  <section class="main">
+    <!--navigation-->
+    <nav>
+      <!--logo-->
+      <a href="../../index.html" class="logo">
+        <img src="../../logo/logo.png" />
+      </a>
+      <!--menu-btn-->
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn">
+        <span class="nav-icon"></span>
+      </label>
+      <!--menu-->
+      <ul class="menu">
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="../../about.html">About</a></li>
+        <li><a href="../../contact.html">Contact</a></li>
+        <li><a href="../../privacypolicy.html">Privacy Policy</a></li>
+      </ul>
+    </nav>
+    <!--box-container-->
+    <div class="box-container">
+      <h1 class="title">CSS Flexbox</h1>
+      <pre class="line-numbers language-markup">
+        <code>
+          &lt;!DOCTYPE html&gt;
+          &lt;html lang=&quot;en&quot;&gt;
+          &lt;head&gt;
+            &lt;meta charset=&quot;UTF-8&quot;&gt;
+            &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+            &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot;&gt;
+            &lt;title&gt;Flexbox Tutorial&lt;/title&gt;
+            &lt;style&gt;
+            
+            &lt;/style&gt;
+          &lt;/head&gt;
+          &lt;body&gt;
+            &lt;h1&gt;This is Flexbox Tutorial&lt;/h1&gt;
+            &lt;div class=&quot;container&quot;&gt;
+              &lt;div class=&quot;item&quot; id=&quot;item-1&quot;&gt;
+                First Box
+              &lt;/div&gt;
+              &lt;div class=&quot;item&quot; id=&quot;item-2&quot;&gt;
+                Second Box
+              &lt;/div&gt;
+              &lt;div class=&quot;item&quot; id=&quot;item-3&quot;&gt;
+                Third Box
+              &lt;/div&gt;
+              &lt;!-- 
+              &lt;div class=&quot;item&quot; id=&quot;item-4&quot;&gt;
+                Fourth Box
+              &lt;/div&gt;
+              &lt;div class=&quot;item&quot; id=&quot;item-5&quot;&gt;
+                Fifth Box
+              &lt;/div&gt;
+              &lt;div class=&quot;item&quot; id=&quot;item-6&quot;&gt;
+                Sixth Box
+              &lt;/div&gt;
+              --&gt;
+            &lt;/div&gt;
+          &lt;/body&gt;
+          &lt;/html&gt;
+        </code>
+      </pre>
+      <pre class="line-numbers language-css">
+        <code>
+              .container {
+                height: 544px;
+                width: 100%;
+                border: 2px solid black;
+                display: flex;
+                /* 
+                Initialize the container as a flex box 
+                */
+          
+                /* 
+                Flex properties for a flex container 
+                */
+          
+                /*
+                flex-direction: row; (Default value of flex-direction is row) 
+                */
+                
+                /* 
+                flex-direction: column;
+                flex-direction: row-reverse;
+                flex-direction: column-reverse; 
+                */
+          
+          
+                /*
+                flex-wrap: wrap; (Default value of flex-direction is no-wrap)
+                */
+                
+                /*
+                flex-wrap: wrap-reverse; 
+                */
+          
+                /* This is a shorthand for flex-direction: and flex-wrap: ;; */
+                /* flex-flow: row-reverse wrap; */
+          
+                /* justify-content will justify the content in horizontal direction */
+                /* justify-content: center; */
+                /* justify-content: space-between; */
+                /* justify-content: space-evenly; */
+                /* justify-content: space-around; */
+          
+                /* justify-content will justify the content in vertical direction */
+                /* align-items: center; */
+                /* align-items: flex-end; */
+                /* align-items: flex-start; */
+                /* align-items: stretch; */
+              }
+              .item {
+                width: 200px;
+                height: 200px;
+                background-color: tomato;
+                border: 2px solid green;
+                margin: 10px;
+                padding: 3px;
+              }
+          
+              #item-1 {
+                /* Flex properties for a flex item */
+                /* Higher the order, later it shows up in the container */
+                /* order: 2; */
+          
+                /* flex-grow: 2;
+                  flex-shrink: 2; 
+                */
+          
+              }
+              #item-2 {
+                /* flex-grow: 3;
+                      flex-shrink: 3 ; */
+                flex-basis: 160px;
+                /* when flex-direction is set to row flex-basis: will control width */
+                /* when flex-direction is set to column flex-basis: will control height */
+              }
+              #item-3 {
+                /* flex: 2 2 230px; */
+                align-self: flex-start;
+                align-self: flex-end;
+                align-self: center;
+          
+              }
+          
+        </code>
+      </pre>
+      <pre class="line-numbers language-javascript">
+        <code>
+          # No source code
+        </code>
+      </pre>
+    </div>
+    <div class="navigationBox" id="navigationBox">
+      <a  id="backPage" class="left" href="#">Back</a>
+      <a  id="nextPage" class="right" href="02_Console Loges Errors Warning.html">Next</a>
+    </div>
+  </section>
+  <!-- script -->
+  <script src="../../assets/js/prism/prism.js" type="text/javascript" charset="utf-8"></script>
+  <script src="../../assets/js/pages/html.js" type="text/javascript" charset="utf-8"></script>
+  <!-- script -->
+</body>
+</html>

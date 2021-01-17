@@ -1,0 +1,197 @@
+<!--Doctype html-->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, intial-scale=1.0">
+
+  <!--   Android Chrome  -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <!--   IOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <!-- Stylesheet Add -->
+  <link rel="stylesheet" href="../../assets/css/pages/style.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="../../assets/css/prism/prism.css" />
+  <!--fav-icon-->
+  <link rel="shortcut icon" href="../../favicon/fav-icon.png" />
+  <!-- Title -->
+  <title>Practice Questions on Arrays in Javas</title>
+  <style type="text/css" media="all">
+    .language-java{
+      height: 500px;
+    }
+  </style>
+</head>
+<body>
+  <section class="main">
+    <!--navigation-->
+    <nav>
+      <!--logo-->
+      <a href="../../index.html" class="logo">
+        <img src="../../logo/logo.png" />
+      </a>
+      <!--menu-btn-->
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn">
+        <span class="nav-icon"></span>
+      </label>
+      <!--menu-->
+      <ul class="menu">
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="../../about.html">About</a></li>
+        <li><a href="../../contact.html">Contact</a></li>
+        <li><a href="../../privacypolicy.html">Privacy Policy</a></li>
+      </ul>
+    </nav>
+    <!--box-container-->
+    <div class="box-container">
+      <h1 class="title">Practice Questions on Arrays in Javas</h1>
+      <pre class="line-numbers language-java">
+        <code>
+          public class CWH29ArrayPracticeSet {
+            public static void main(String[] args) {
+              /*
+                // Practice Problem_1 🐱🐱🐱
+                float [] marks = {20.4f , 34.3f , 23.4f , 34.3f , 8.9f};
+                float sum = 0;
+                for  (float element : marks){
+                  sum = sum + element;
+                }
+                System.out.println("This  valu of Sum is :  " + sum);
+              }
+              */
+          
+              // Practice Problem_2 🐱🐱🐱
+              /*
+              float [] marks = {20.4f , 34.3f , 23.4f , 34.3f , 8.9f};
+              float num = 348.3f;
+              boolean isInArray = false;
+              for  (float element : marks){
+                if (num == element){
+                  isInArray = true;
+                  break;
+                }
+              }
+              if (isInArray){
+              System.out.println("This value is  Present in Array :  " + num);
+              }
+              else{
+              System.out.println("This value is not Present Array : 00");
+          
+              */
+          
+              // Practice Problem_3 🐱🐱🐱
+              /*float[] marks = {20.4f, 34.3f, 23.4f, 34.3f, 8.9f};
+              float sum = 0;
+              for (float element : marks) {
+                sum = sum + element;
+              }
+              System.out.println("This  valu of average marks is :  " + sum / marks.length);
+              */
+              
+              // Practice Problem_4 🐱🐱🐱
+              /*
+              int mati1 [][] = {{1 , 2 , 3},
+                               {3 , 4 , 5}};
+              int mati2 [][] = {{2 , 6 , 13},
+                               {5 , 7 , 1}};
+              int result [][] = {{0 , 0 , 0},
+                               {0 , 0 , 0}};
+              for (int i = 0;i < mati1.length; i++){ // row numbar of type
+                for (int j = 0;j<mati1[i].length; j++){ //column numbar of type
+                System.out.format("Seting value for i = %d and j = %d\n", i ,j);
+                  result[i][j] = mati1[i][j] + mati2[i][j];
+                }
+              } 
+              
+              for (int i = 0;i < mati1.length; i++){ // row numbar of type
+                for (int j = 0;j<mati1[i].length; j++){ //column numbar of type
+                System.out.print(result[i][j] + " ");
+                  result[i][j] = mati1[i][j] + mati2[i][j];
+                }
+              }
+                System.out.println(" ");
+                */
+                
+              // Practice Problem_5 🐱🐱🐱
+              /*
+              ========== Note ==========
+                Eroor this code sow Math Class Note add
+              int [] arry = {1 , 2 , 3 , 4 , 5 , 6 };
+              int l = arry.length;
+              int n = Math.floorDiv(l , 2);
+              int temp;
+              
+              for (int i = 0; i<arry.length; i++){
+                // Swap a[i] and a[l-1-1]
+                // a b temo
+                // [4] [3] []
+                temp = arry[i];
+                arry[i] = arry[l-1-1];
+                arry[l-1-1] = temp;
+              } 
+              for (int element : arry){
+                System.out.print(element + " ");
+              }
+              */
+              // Practice Problem_6 🐱🐱🐱
+              /*
+              int [] arry = {1 , 2 , 3 , 4 , 5 , 6 };
+              int max = Integer.MIN_VALUE;
+              for(int element : arry){
+                if (element > max){
+                  max = element;
+                } 
+              }
+                System.out.println("This value arry maximum is : " + max);
+              */
+                
+              // Practice Problem_7 🐱🐱🐱
+              /*
+              int [] arry = {1 , 2 , 3 , 4 , 5 , 6 };
+              int max = Integer.MAX_VALUE;
+              for(int element : arry){
+                if (element > max){
+                  max = element;
+                } 
+              }
+                System.out.println("This value arry maximum is : " + max);
+                
+              */
+              
+              // Practice Problem_8 🐱🐱🐱
+             /*
+              boolean isSorted = true;
+              int [] arry = {1 ,2 , 3 , 4 , 5 , 6 };
+              for (int i = 0; i < arry.length-1; i++){
+                if (arry[i] > arry[i+1]){
+                  isSorted = false;
+                  break;
+                }
+              } 
+              if(isSorted){
+                System.out.println("Tha Arry is Sorted");
+              }
+              else{
+                System.out.println("Tha Arry is Not Sorted");
+              }
+              */
+            }
+          }
+
+        </code>
+      </pre>
+    </div>
+    <div class="navigationBox" id="navigationBox">
+      <a  id="backPage" class="left" href="#">Back</a>
+      <a  id="nextPage" class="right" href="02_Console Loges Errors Warning.html">Next</a>
+    </div>
+  </section>
+  <!-- script -->
+  <script src="../../assets/js/prism/prism.js" type="text/javascript" charset="utf-8"></script>
+  <script src="../../assets/js/pages/java.js" type="text/javascript" charset="utf-8"></script>
+  <!-- script -->
+</body>
+</html>

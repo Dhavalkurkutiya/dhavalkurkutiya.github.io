@@ -1,0 +1,251 @@
+<!--Doctype html-->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, intial-scale=1.0">
+
+  <!--   Android Chrome  -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <!--   IOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <!-- Stylesheet Add -->
+  <link rel="stylesheet" href="../../assets/css/pages/html.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="../../assets/css/prism/prism.css" />
+  <!--fav-icon-->
+  <link rel="shortcut icon" href="../../favicon/fav-icon.png" />
+  <!-- Title -->
+  <title>Project-1  Creating a Simple Website</title>
+</head>
+<body>
+  <section class="main">
+    <!--navigation-->
+    <nav>
+      <!--logo-->
+      <a href="../../index.html" class="logo">
+        <img src="../../logo/logo.png" />
+      </a>
+      <!--menu-btn-->
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn">
+        <span class="nav-icon"></span>
+      </label>
+      <!--menu-->
+      <ul class="menu">
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="../../about.html">About</a></li>
+        <li><a href="../../contact.html">Contact</a></li>
+        <li><a href="../../privacypolicy.html">Privacy Policy</a></li>
+      </ul>
+    </nav>
+    <!--box-container-->
+    <div class="box-container">
+      <h1 class="title">Project-1  Creating a Simple Website</h1>
+      <pre class="line-numbers language-markup">
+        <code>
+          &lt;!DOCTYPE html&gt;
+          &lt;html lang=&quot;en&quot;&gt;
+          
+          &lt;head&gt;
+            &lt;meta charset=&quot;UTF-8&quot;&gt;
+            &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+            &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot;&gt;
+            &lt;title&gt;Harry Fitness&lt;/title&gt;
+          
+            &lt;link href=&quot;https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap&quot; rel=&quot;stylesheet&quot;&gt;
+            &lt;link rel=&quot;stylesheet&quot; href=&quot;css/style.css&quot;&gt;
+            &lt;style&gt;
+              
+            &lt;/style&gt;
+          &lt;/head&gt;
+          
+          &lt;body&gt;
+            &lt;header class=&quot;header&quot;&gt;
+              &lt;!-- Left box for logo --&gt;
+              &lt;div class=&quot;left&quot;&gt;
+                &lt;img src=&quot;img/gym.png&quot; alt=&quot;&quot;&gt;
+                &lt;div&gt;
+                  Harry Fitness
+                &lt;/div&gt;
+              &lt;/div&gt;
+              &lt;!-- Mid box for navbar --&gt;
+              &lt;div class=&quot;mid&quot;&gt;
+                &lt;ul class=&quot;navbar&quot;&gt;
+                  &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;active&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+                  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;About Us&lt;/a&gt;&lt;/li&gt;
+                  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Fitness Calculator&lt;/a&gt;&lt;/li&gt;
+                  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Contact Us&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/div&gt;
+          
+              &lt;!-- Right box for buttons --&gt;
+              &lt;div class=&quot;right&quot;&gt;
+                &lt;button class=&quot;btn&quot;&gt;Call Us Now&lt;/button&gt;
+                &lt;button class=&quot;btn&quot;&gt;Email Us&lt;/button&gt;
+              &lt;/div&gt;
+            &lt;/header&gt;
+            &lt;div class=&quot;container&quot;&gt;
+              &lt;h1&gt;Join the best gym of Delhi now&lt;/h1&gt;
+              &lt;form action=&quot;noaction.php&quot;&gt;
+                &lt;div class=&quot;form-group&quot;&gt;
+                  &lt;input type=&quot;text&quot; name=&quot;&quot; placeholder=&quot;Enter your Name&quot;&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;form-group&quot;&gt;
+                  &lt;input type=&quot;text&quot; name=&quot;&quot; placeholder=&quot;Enter your Age&quot;&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;form-group&quot;&gt;
+                  &lt;input type=&quot;text&quot; name=&quot;&quot; placeholder=&quot;Enter your Gender&quot;&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;form-group&quot;&gt;
+                  &lt;input type=&quot;text&quot; name=&quot;&quot; placeholder=&quot;Enter your Locality&quot;&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;form-group&quot;&gt;
+                  &lt;input type=&quot;text&quot; name=&quot;&quot; placeholder=&quot;Enter your Email Id&quot;&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;form-group&quot;&gt;
+                  &lt;input type=&quot;text&quot; name=&quot;&quot; placeholder=&quot;Enter your Phone Number&quot;&gt;
+                &lt;/div&gt;
+                &lt;button class=&quot;btn&quot;&gt;Submit&lt;/button&gt;
+              &lt;/form&gt;
+            &lt;/div&gt;
+          &lt;/body&gt;
+          
+          &lt;/html&gt;
+        </code>
+      </pre>
+      <pre class="line-numbers language-markup">
+        <code>
+          
+          /* CSS Reset */
+          body {
+            font-family: 'Baloo Bhai', cursive;
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('img/bg.jpg');
+          }
+      
+          .left {
+            display: inline-block;
+            /* border: 2px solid red; */
+            position: absolute;
+            left: 60px;
+            top: 20px;
+          }
+      
+          .left img {
+            width: 136px;
+            filter: invert(100%);
+          }
+      
+          .left div {
+            line-height: 19px;
+            font-size: 26px;
+            text-align: center;
+          }
+      
+          .mid {
+            display: block;
+            width: 36%;
+            margin: 29px auto;
+            /* border: 2px solid green; */
+          }
+      
+          .right {
+            position: absolute;
+            right: 34px;
+            top: 43px;
+            display: inline-block;
+            /* border: 2px solid yellow; */
+          }
+      
+          .navbar {
+            display: inline-block;
+          }
+      
+          .navbar li {
+            display: inline-block;
+            font-size: 25px;
+          }
+      
+          .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+      
+          }
+      
+          .navbar li a:hover,
+          .navbar li a.active {
+            text-decoration: underline;
+            color: grey;
+      
+          }
+      
+          .btn {
+            font-family: 'Baloo Bhai', cursive;
+            margin: 0px 9px;
+            background-color: black;
+            color: white;
+            padding: 4px 14px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+          }
+      
+          .btn:hover {
+            background-color: rgb(31, 30, 30);
+          }
+      
+          .container {
+            border: 2px solid white;
+            margin: 106px 80px;
+            padding: 75px;
+            width: 33%;
+            border-radius: 28px;
+          }
+      
+          .form-group input {
+            font-family: 'Baloo Bhai', cursive;
+            text-align: center;
+            display: block;
+            width: 508px;
+            padding: 1px;
+            border: 2px solid black;
+            margin: 11px auto;
+            font-size: 25px;
+            border-radius: 8px;
+          }
+      
+          .container h1 {
+            text-align: center;
+          }
+      
+          .container button {
+            display: block;
+            width: 74%;
+            margin: 20px auto;
+          }
+        
+        </code>
+      </pre>
+      <pre class="line-numbers language-javascript">
+        <code>
+          console.log("Done");
+        </code>
+      </pre>
+    </div>
+    <div class="navigationBox" id="navigationBox">
+      <a  id="backPage" class="left" href="#">Back</a>
+      <a  id="nextPage" class="right" href="02_Console Loges Errors Warning.html">Next</a>
+    </div>
+  </section>
+  <!-- script -->
+  <script src="../../assets/js/prism/prism.js" type="text/javascript" charset="utf-8"></script>
+  <script src="../../assets/js/pages/html.js" type="text/javascript" charset="utf-8"></script>
+  <!-- script -->
+</body>
+</html>

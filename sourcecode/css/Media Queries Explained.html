@@ -1,0 +1,133 @@
+<!--Doctype html-->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, intial-scale=1.0">
+
+  <!--   Android Chrome  -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <!--   IOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <!-- Stylesheet Add -->
+  <link rel="stylesheet" href="../../assets/css/pages/html.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="../../assets/css/prism/prism.css" />
+  <!--fav-icon-->
+  <link rel="shortcut icon" href="../../favicon/fav-icon.png" />
+  <!-- Title -->
+  <title>Media Queries Explained</title>
+</head>
+<body>
+  <section class="main">
+    <!--navigation-->
+    <nav>
+      <!--logo-->
+      <a href="../../index.html" class="logo">
+        <img src="../../logo/logo.png" />
+      </a>
+      <!--menu-btn-->
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn">
+        <span class="nav-icon"></span>
+      </label>
+      <!--menu-->
+      <ul class="menu">
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="../../about.html">About</a></li>
+        <li><a href="../../contact.html">Contact</a></li>
+        <li><a href="../../privacypolicy.html">Privacy Policy</a></li>
+      </ul>
+    </nav>
+    <!--box-container-->
+    <div class="box-container">
+      <h1 class="title">Media Queries Explained</h1>
+      <pre class="line-numbers language-markup">
+        <code>
+          &lt;!DOCTYPE html&gt;
+          &lt;html lang=&quot;en&quot;&gt;
+          &lt;head&gt;
+            &lt;meta charset=&quot;UTF-8&quot;&gt;
+            &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+            &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot;&gt;
+            &lt;title&gt;Media Queries&lt;/title&gt;
+            &lt;style&gt;
+          
+            &lt;/style&gt;
+          &lt;/head&gt;
+          &lt;body&gt;
+            &lt;div class=&quot;box&quot; id=&quot;box-1&quot;&gt;
+              Mai ek iPhone hoon
+            &lt;/div&gt;
+            &lt;div class=&quot;box&quot; id=&quot;box-2&quot;&gt;
+              Mai ek Tablet hoon
+            &lt;/div&gt;
+            &lt;div class=&quot;box&quot; id=&quot;box-3&quot;&gt;
+              Mai ek desktop computer hoon
+            &lt;/div&gt;
+            &lt;div class=&quot;box&quot; id=&quot;box-4&quot;&gt;
+              Mai ek widescreen computer hoon
+            &lt;/div&gt;
+          &lt;/body&gt;
+          &lt;/html&gt;
+        </code>
+      </pre>
+      <pre class="line-numbers language-css">
+        <code>
+              .box {
+                font-size: 72px;
+                text-align: center;
+                background-color: red;
+                color: white;
+                display: none;
+              }
+          
+          @media only screen and (max-width:300px) {
+                #box-1 {
+                  display: block;
+                  background-color: cyan;
+                }
+              }
+          
+          @media only screen and (min-width: 300px) and (max-width:500px) {
+                #box-2 {
+                  display: block;
+                  background-color: blueviolet;
+                }
+              }
+          
+          @media (min-width: 500px) and (max-width:800px) {
+                #box-3 {
+                  display: block;
+                  color: black;
+                  background-color: yellow;
+                }
+              }
+          
+          @media (min-width: 800px) {
+                #box-4 {
+                  display: block;
+                  background-color: green;
+                }
+              }
+          
+        </code>
+      </pre>
+      <pre class="line-numbers language-javascript">
+        <code>
+          # No source code
+        </code>
+      </pre>
+    </div>
+    <div class="navigationBox" id="navigationBox">
+      <a  id="backPage" class="left" href="#">Back</a>
+      <a  id="nextPage" class="right" href="02_Console Loges Errors Warning.html">Next</a>
+    </div>
+  </section>
+  <!-- script -->
+  <script src="../../assets/js/prism/prism.js" type="text/javascript" charset="utf-8"></script>
+  <script src="../../assets/js/pages/html.js" type="text/javascript" charset="utf-8"></script>
+  <!-- script -->
+</body>
+</html>

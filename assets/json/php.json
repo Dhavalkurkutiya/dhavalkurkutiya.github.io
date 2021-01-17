@@ -1,0 +1,240 @@
+{
+  "status":"ok","totalResults":65,"cardData":[
+    {
+    "url":"01_install vscode setup.html",
+    "title":"Installing XAMPP, VS Code + Environment Setup",
+    "content":"I’m sorry, this question would be out of my expertise.",
+    "publishedAt":"10:25 pm"
+  },
+    {
+      "url":"02_Console Loges Errors Warning.html",
+      "title":"Creating Our First PHP Website",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"11:20 pm"
+    },
+    {
+      "url":"03_Variables in Javascript.html",
+      "title":"How HTML, CSS, JavaScript & PHP Work Together ",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"10:56 pm"},
+    {
+      "url":"04_Data type in javascript.html",
+      "title":"Php Comments & Using Php with Bootstrap",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"10:56 pm"},
+    {
+      "url":"05_Type Conversion  Coercion.html",
+      "title":"Php Variables",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"10:04 pm"}, 
+    {
+      "url":"06_Strings Properties, Methods  Template Literals.html",
+      "title":"Rules for Creating Variables in php",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "url":"07_Arrays and Objects In JavaScript.html",
+      "title":"Data Types in Php",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "url":"08_If Else Conditionals & Switches in JavaScript.html",
+      "title":"String Functions",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "url":"09_For, While & Do while Loops.html",
+      "title":"Operators in PHP",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "url":"10_Functions in JavaScript.html",
+      "title":"If Else Conditionals",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "url":"11_Functions in JavaScript.html",
+      "title":"Switch Case Statements in PHP",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "url":"12_Functions in JavaScript.html",
+      "title":"While Loops in PHP",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "url":"13_Functions in JavaScript.html",
+      "title":"For Loops in PHP",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "url":"14_Functions in JavaScript.html",
+      "title":"Do-While Loops in PHP",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "url":"15_Functions in JavaScript.html",
+      "title":"Foreach Loops in PHP",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "url":"16_Functions in JavaScript.html",
+      "title":"Functions in PHP",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "url":"17_Functions in JavaScript.html",
+      "title":"Date Function Handling Dates in PHP",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "url":"18_Functions in JavaScript.html",
+      "title":"Associative Arrays in PHP",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "url":"19_Functions in JavaScript.html",
+      "title":"Multi-Dimensional Arrays in PHP",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "url":"20_Functions in JavaScript.html",
+      "title":"Scope Local  Global Variables in PHP",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "url":"21_Functions in JavaScript.html",
+      "title":"GET & POST Requests in PHP",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "url":"22_Functions in JavaScript.html",
+      "title":"Using RDBMS & SQL With PHP",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "url":"23_Functions in JavaScript.html",
+      "title":"Creating Database & Tables",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "url":"24_Functions in JavaScript.html",
+      "title":"Connecting to MySQL Database from PHP Script",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "url":"25_Functions in JavaScript.html",
+      "title":"Creating a MySQL Database using PHP",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "url":"26_Functions in JavaScript.html",
+      "title":"Creating a Table in MySQL using PHP",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "url":"27_Functions in JavaScript.html",
+      "title":"Insert Data Into MySQL Using MySQLi using PHP",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "url":"28_Functions in JavaScript.html",
+      "title":"Creating a Bootstrap Form and Saving Data",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "url":"29_Functions in JavaScript.html",
+      "title":"Selecting and Displaying Data",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "url":"30_Functions in JavaScript.html",
+      "title":"Updating Records in PHP",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "url":"31_Functions in JavaScript.html",
+      "title":"Deleting Records in PHP & Limit",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "url":"32_Functions in JavaScript.html",
+      "title":"Php CRUD Operations Tutorial Using MySQLi",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "url":"33_Functions in JavaScript.html",
+      "title":"Include and Require in PHP in Hindi",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "url":"34_Functions in JavaScript.html",
+      "title":"File IO in PHP in Hindi",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "url":"35_Functions in JavaScript.html",
+      "title":"fopen(), fread() & fclose() in PHP in Hindi",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "url":"36_Functions in JavaScript.html",
+      "title":"fgetc(), & fgets() in PHP in Hindi",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "url":"37_Functions in JavaScript.html",
+      "title":"Writing and Appending to Files in PHP in Hindi",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "url":"38_Functions in JavaScript.html",
+      "title":"Setting Cookies & $_COOKIE super global",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "url":"39_Functions in JavaScript.html",
+      "title":"$_SESSION & Starting a Session",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "url":"40_Functions in JavaScript.html",
+      "title":"PHP Login System Tutorial Creating a Login + Registration System in PHP",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    }
+    ]}

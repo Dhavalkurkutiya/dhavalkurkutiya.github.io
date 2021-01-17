@@ -1,0 +1,159 @@
+<!--Doctype html-->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, intial-scale=1.0">
+
+  <!--   Android Chrome  -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <!--   IOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <!-- Stylesheet Add -->
+  <link rel="stylesheet" href="../../assets/css/pages/html.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="../../assets/css/prism/prism.css" />
+  <!--fav-icon-->
+  <link rel="shortcut icon" href="../../favicon/fav-icon.png" />
+  <!-- Title -->
+  <title>Before and After Pseudo Selectors</title>
+</head>
+<body>
+  <section class="main">
+    <!--navigation-->
+    <nav>
+      <!--logo-->
+      <a href="../../index.html" class="logo">
+        <img src="../../logo/logo.png" />
+      </a>
+      <!--menu-btn-->
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn">
+        <span class="nav-icon"></span>
+      </label>
+      <!--menu-->
+      <ul class="menu">
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="../../about.html">About</a></li>
+        <li><a href="../../contact.html">Contact</a></li>
+        <li><a href="../../privacypolicy.html">Privacy Policy</a></li>
+      </ul>
+    </nav>
+    <!--box-container-->
+    <div class="box-container">
+      <h1 class="title">Before and After Pseudo Selectors</h1>
+      <pre class="line-numbers language-markup">
+        <code>
+          &lt;!DOCTYPE html&gt;
+          &lt;html lang=&quot;en&quot;&gt;
+          
+          &lt;head&gt;
+            &lt;meta charset=&quot;UTF-8&quot;&gt;
+            &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+            &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot;&gt;
+            &lt;title&gt;Before and after pseudo selector&lt;/title&gt;
+            &lt;link href=&quot;https://fonts.googleapis.com/css?family=Bree+Serif&display=swap&quot; rel=&quot;stylesheet&quot;&gt;
+            &lt;style&gt;
+              body {
+                margin: 0;
+                padding: 0;
+                background-color: black;
+                color: white;
+              }
+          
+              header::before {
+                background: url(&#39;https://source.unsplash.com/collection/190727/1600x900&#39;) no-repeat center center/cover;
+                content: &quot;&quot;;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: -1;
+                opacity: 0.3;
+              }
+          
+              .navigation {
+                font-family: &#39;Bree Serif&#39;, serif;
+                font-size: 20px;
+                display: flex;
+              }
+          
+              li {
+                list-style: none;
+                padding: 20px 23px;
+              }
+          
+              section {
+                height: 344px;
+                font-family: &#39;Bree Serif&#39;, serif;
+                margin: 3px 230px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+              }
+          
+              h1 {
+                font-size: 4rem;
+              }
+          
+              p {
+                text-align: center;
+              }
+          
+              /* section::after{
+                  content:&quot;this is a content&quot;
+              } */
+          
+            &lt;/style&gt;
+          &lt;/head&gt;
+          
+          &lt;body&gt;
+            &lt;header&gt;
+              &lt;nav class=&quot;navbar&quot;&gt;
+                &lt;ul class=&quot;navigation&quot;&gt;
+                  &lt;li class=&quot;item&quot;&gt;Home&lt;/li&gt;
+                  &lt;li class=&quot;item&quot;&gt;About&lt;/li&gt;
+                  &lt;li class=&quot;item&quot;&gt;Services&lt;/li&gt;
+                  &lt;li class=&quot;item&quot;&gt;Contact Us&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/nav&gt;
+            &lt;/header&gt;
+            &lt;section&gt;
+              &lt;h1&gt; Welcome to Coding World&lt;/h1&gt;
+              &lt;p&gt;
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident error ratione doloribus sed dolorum,
+                ipsum cumque reprehenderit dignissimos architecto veniam optio sint aliquam consectetur corrupti vero
+                similique velit. Possimus eum consequatur delectus quia magni.
+              &lt;/p&gt;
+            &lt;/section&gt;
+          
+          &lt;/body&gt;
+          
+          &lt;/html&gt;
+        </code>
+      </pre>
+      <pre class="line-numbers language-markup">
+        <code>
+          # No source code
+        </code>
+      </pre>
+      <pre class="line-numbers language-javascript">
+        <code>
+          # No source code
+        </code>
+      </pre>
+    </div>
+    <div class="navigationBox" id="navigationBox">
+      <a  id="backPage" class="left" href="#">Back</a>
+      <a  id="nextPage" class="right" href="02_Console Loges Errors Warning.html">Next</a>
+    </div>
+  </section>
+  <!-- script -->
+  <script src="../../assets/js/prism/prism.js" type="text/javascript" charset="utf-8"></script>
+  <script src="../../assets/js/pages/html.js" type="text/javascript" charset="utf-8"></script>
+  <!-- script -->
+</body>
+</html>

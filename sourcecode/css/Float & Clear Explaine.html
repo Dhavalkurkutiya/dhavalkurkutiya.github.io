@@ -1,0 +1,179 @@
+<!--Doctype html-->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, intial-scale=1.0">
+
+  <!--   Android Chrome  -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <!--   IOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <!-- Stylesheet Add -->
+  <link rel="stylesheet" href="../../assets/css/pages/html.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="../../assets/css/prism/prism.css" />
+  <!--fav-icon-->
+  <link rel="shortcut icon" href="../../favicon/fav-icon.png" />
+  <!-- Title -->
+  <title>Float & Clear Explaine</title>
+</head>
+<body>
+  <section class="main">
+    <!--navigation-->
+    <nav>
+      <!--logo-->
+      <a href="../../index.html" class="logo">
+        <img src="../../logo/logo.png" />
+      </a>
+      <!--menu-btn-->
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn">
+        <span class="nav-icon"></span>
+      </label>
+      <!--menu-->
+      <ul class="menu">
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="../../about.html">About</a></li>
+        <li><a href="../../contact.html">Contact</a></li>
+        <li><a href="../../privacypolicy.html">Privacy Policy</a></li>
+      </ul>
+    </nav>
+    <!--box-container-->
+    <div class="box-container">
+      <h1 class="title">Float & Clear Explaine</h1>
+      <pre class="line-numbers language-markup">
+        <code>
+          &lt;!DOCTYPE html&gt;
+          &lt;html lang=&quot;en&quot;&gt;
+          
+          &lt;head&gt;
+            &lt;meta charset=&quot;UTF-8&quot;&gt;
+            &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+            &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot;&gt;
+            &lt;title&gt;Alignment&lt;/title&gt;
+            &lt;!-- &lt;link href=&quot;https://fonts.googleapis.com/css?family=Ubuntu&display=swap&quot; rel=&quot;stylesheet&quot;&gt; --&gt;
+            &lt;style&gt;
+              
+            &lt;/style&gt;
+          &lt;/head&gt;
+          
+          &lt;body&gt;
+            &lt;div class=&quot;container&quot;&gt;
+              &lt;h1&gt; Welcome to my store &lt;/h1&gt;
+              &lt;div id=&quot;fruit&quot; class=&quot;item&quot;&gt;
+                &lt;h3&gt;Fruits&lt;/h3&gt;
+                &lt;p id=&quot;fruitpara&quot; class=&quot;para&quot;&gt;
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
+                  quibusdam explicabo, porro magnam quas sint enim cumque minima odit cupiditate ex itaque, eaque
+                  distinctio sed ipsam totam, nihil tenetur. Recusandae. Lorem ipsum dolor, sit amet consectetur
+                  adipisicing elit. Aspernatur fugiat iusto vel. Qui, veniam nam, enim dolore deleniti dignissimos
+                  veritatis tenetur animi sunt voluptatem laboriosam, nihil inventore molestias totam. Quas ducimus
+                  quibusdam quaerat necessitatibus.
+                &lt;/p&gt;
+              &lt;/div&gt;
+              &lt;div id=&quot;computer&quot; class=&quot;item&quot;&gt;
+                &lt;h3&gt;Computer&lt;/h3&gt;
+                &lt;p id=&quot;computerpara&quot; class=&quot;para&quot;&gt;
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
+                  quibusdam explicabo, porro magnam quas sint enim cumque minima odit cupiditate ex itaque, eaque
+                  distinctio sed ipsam totam, nihil tenetur. Recusandae. Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Rerum commodi vitae exercitationem necessitatibus laboriosam corporis dicta, eveniet
+                  architecto reprehenderit eum id repudiandae deleniti fugiat fugit inventore ea dolorum neque amet nulla
+                  vero culpa. Accusamus.
+                &lt;/p&gt;
+              &lt;/div&gt;
+              &lt;div id=&quot;stationary&quot; class=&quot;item&quot;&gt;
+                &lt;h3&gt;Stationary&lt;/h3&gt;
+                &lt;p id=&quot;stationarypara&quot; class=&quot;para&quot;&gt;
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
+                  quibusdam explicabo, porro magnam quas sint enim cumque minima odit cupiditate ex itaque, eaque
+                  distinctio sed ipsam totam, nihil tenetur. Recusandae.
+                &lt;/p&gt;
+              &lt;/div&gt;
+              &lt;div id=&quot;glasses&quot; class=&quot;item&quot;&gt;
+                &lt;h3&gt;Stationary&lt;/h3&gt;
+                &lt;p id=&quot;glassespara&quot; class=&quot;para&quot;&gt;
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
+                  quibusdam explicabo, porro magnam quas sint enim cumque minima odit cupiditate ex itaque, eaque
+                  distinctio sed ipsam totam, nihil tenetur. Recusandae.
+                &lt;/p&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/body&gt;
+          
+          &lt;/html&gt;
+        </code>
+      </pre>
+      <pre class="line-numbers language-css">
+        <code>
+             * {
+                box-sizing: border-box;
+              }
+          
+              body {
+                /* font-family: &#39;Ubuntu&#39;, sans-serif; */
+              }
+          
+              .container {
+                width: 900px;
+                border: 3px solid purple;
+                background-color: rgb(250, 226, 205);
+                margin: 33px auto;
+              }
+          
+              .item {
+                border: 3px solid grey;
+                margin: 12px 3px;
+                padding: 12px 3px;
+                background: rgb(248, 238, 238);
+              }
+          
+              #fruit {
+                float: right;
+                width: 48%;
+              }
+          
+              #computer {
+                float: left;
+                width: 48%;
+              }
+          
+              #stationary {
+                /* float: left; */
+                clear: both;
+                clear: left;
+                width: 100%;
+              }
+          
+              p, h3 {
+                /* text-align: right;
+                      text-align: left;
+                      text-align: center; */
+                text-align: justify;
+              }
+          
+              h1 {
+                margin: 23px auto;
+                width: 455px;
+              }
+        </code>
+      </pre>
+      <pre class="line-numbers language-javascript">
+        <code>
+          # No source code
+        </code>
+      </pre>
+    </div>
+    <div class="navigationBox" id="navigationBox">
+      <a  id="backPage" class="left" href="#">Back</a>
+      <a  id="nextPage" class="right" href="02_Console Loges Errors Warning.html">Next</a>
+    </div>
+  </section>
+  <!-- script -->
+  <script src="../../assets/js/prism/prism.js" type="text/javascript" charset="utf-8"></script>
+  <script src="../../assets/js/pages/html.js" type="text/javascript" charset="utf-8"></script>
+  <!-- script -->
+</body>
+</html>

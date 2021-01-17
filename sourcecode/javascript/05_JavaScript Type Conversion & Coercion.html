@@ -1,0 +1,126 @@
+<!--Doctype html-->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, intial-scale=1.0">
+
+  <!--   Android Chrome  -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <!--   IOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <!-- Stylesheet Add -->
+  <link rel="stylesheet" href="../../assets/css/pages/javascript.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="../../assets/css/prism/prism.css" />
+  <!--fav-icon-->
+  <link rel="shortcut icon" href="../../favicon/fav-icon.png" />
+  <!-- Title -->
+  <title>5: JavaScript Type Conversion & Coercion</title>
+</head>
+<body>
+  <section id="" class="main">
+    <!--navigation-->
+    <nav>
+      <!--logo-->
+      <a href="../../index.html" class="logo">
+        <img src="../../logo/logo.png" />
+      </a>
+      <!--menu-btn-->
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn">
+        <span class="nav-icon"></span>
+      </label>
+      <!--menu-->
+      <ul class="menu">
+        <li><a class="active" href="../../index.html">Home</a></li>
+        <li><a href="../../about.html">About</a></li>
+        <li><a href="../../contact.html">Contact</a></li>
+        <li><a href="../../privacypolicy.html">Privacy Policy</a></li>
+      </ul>
+    </nav>
+    <!--box-container-->
+    <div class="box-container">
+      <h1 class="title">5: JavaScript Type Conversion & Coercion</h1>
+      <pre class="line-numbers language-markup">
+        <code>
+          &lt;!DOCTYPE html&gt;
+          &lt;html&gt;
+          &lt;head&gt;
+            &lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
+            &lt;meta charset=&quot;UTF-8&quot;&gt;
+            &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1, shrink-to-fit=no&quot;&gt;
+            &lt;!-- Android Chrome --&gt;
+            &lt;meta name=&quot;mobile-web-app-capable&quot; content=&quot;yes&quot;&gt;
+            &lt;!-- ios --&gt;
+            &lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot;&gt;
+            &lt;title&gt;05_JavaScript Type Conversion & Coercion.html&lt;/title&gt;
+          &lt;/head&gt;
+          &lt;body&gt;
+            &lt;h2&gt;05_JavaScript Type Conversion & Coercion.html &quot;&lt;/h2&gt;
+            &lt;script src=&quot;
+            js/05_script.js&quot; type=&quot;text/javascript&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+           &lt;/body&gt;
+          &lt;/html&gt;
+        </code>
+      </pre>
+      <pre class="line-numbers language-css">
+        <code>
+          h2 {
+              text-align: center;
+              padding: 10px 20px 10px 20px;
+              background: #edeef6;
+              border-radius: 5px;
+              color: #777474;
+            }
+        </code>
+      </pre>
+      <pre class="line-numbers language-javascript">
+        <code>
+          // ========Type conversion========
+
+          let myVar;
+          myVar = String(34);
+          console.log(myVar, (typeof myVar));
+          
+          let booleanVar = String(true);
+          console.log(booleanVar, (typeof booleanVar));
+          
+          let date = String(new Date());
+          console.log(date, (typeof date));
+          
+          let arr = String([1, 2, 3, 4, 5]);
+          console.log(arr.length, (typeof arr));
+          
+          let i = 75;
+          console.log(i.toString())
+          
+          let stri = Number("3434");
+          stri = Number("343d4");
+          stri = Number(false);
+          stri = Number([1, 2, 3, 4, 5, 6, 7, 8, 9]);
+          // console.log(stri, (typeof stri));
+          
+          let number = parseFloat('34.098');
+          console.log(number.toFixed(20), (typeof number));
+          
+          // ========Type coercion========
+          let mystr = Number("698");
+          let mynum = 34;
+          
+          console.log(mystr + mynum);
+        </code>
+      </pre>
+    </div>
+    <div id="navigationBox" class="navigationBox">
+      <a id="backPage" href="05_JavaScript Type Conversion & Coercion.html" class="right">Back</a>
+      <a id="nextPage" class="left" href="06_Strings Properties, Methods & Template Literals.html">Next</a>
+    </div>
+  </section>
+  <!-- script -->
+  <script src="../../assets/js/prism/prism.js" type="text/javascript" charset="utf-8"></script>
+  <script src="../../assets/js/pages/javascript.js" type="text/javascript" charset="utf-8"></script>
+  <!-- script -->
+</body>
+</html>

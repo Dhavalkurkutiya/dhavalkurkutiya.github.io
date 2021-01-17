@@ -1,0 +1,83 @@
+{
+  "_from": "eruda-dom",
+  "_id": "eruda-dom@2.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-aVsfmHow+LwInEBvn57WY5vQLNL9uJ8goV6mKTazhOWweI1h/XyqvNt1ojZjQvLM66kWDTgUNuugrP3k6KWDyw==",
+  "_location": "/eruda-dom",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "eruda-dom",
+    "name": "eruda-dom",
+    "escapedName": "eruda-dom",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/eruda-dom/-/eruda-dom-2.0.0.tgz",
+  "_shasum": "b4aaac8fcf9df26314a3a98f3d3b0cb02a2aa550",
+  "_spec": "eruda-dom",
+  "_where": "/data/data/com.termux/files/home",
+  "author": {
+    "name": "redhoodsu"
+  },
+  "bugs": {
+    "url": "https://github.com/liriliri/eruda-dom/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Eruda plugin for navigating dom tree",
+  "devDependencies": {
+    "autoprefixer": "^7.2.2",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^0.28.7",
+    "eruda": "^2.0.0",
+    "eslint": "^5.4.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "handlebars": "^4.0.11",
+    "handlebars-loader": "^1.6.0",
+    "node-sass": "^4.7.2",
+    "postcss": "^6.0.14",
+    "postcss-class-prefix": "^0.3.0",
+    "postcss-loader": "^2.0.9",
+    "prettier": "^1.14.2",
+    "sass-loader": "^6.0.6",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  },
+  "homepage": "https://github.com/liriliri/eruda-dom#readme",
+  "keywords": [
+    "eruda",
+    "plugin",
+    "dom"
+  ],
+  "license": "MIT",
+  "main": "eruda-dom.js",
+  "name": "eruda-dom",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liriliri/eruda-dom.git"
+  },
+  "scripts": {
+    "build": "webpack -p",
+    "ci": "npm run lint && npm run build",
+    "dev": "webpack-dev-server --host 0.0.0.0",
+    "format": "prettier src/index.js src/style.scss *.js --write",
+    "lint": "eslint src/**/*.js",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "version": "2.0.0"
+}

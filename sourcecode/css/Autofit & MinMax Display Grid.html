@@ -1,0 +1,138 @@
+<!--Doctype html-->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, intial-scale=1.0">
+
+  <!--   Android Chrome  -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <!--   IOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <!-- Stylesheet Add -->
+  <link rel="stylesheet" href="../../assets/css/pages/html.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="../../assets/css/prism/prism.css" />
+  <!--fav-icon-->
+  <link rel="shortcut icon" href="../../favicon/fav-icon.png" />
+  <!-- Title -->
+  <title>Autofit & MinMax Display Grid</title>
+</head>
+<body>
+  <section class="main">
+    <!--navigation-->
+    <nav>
+      <!--logo-->
+      <a href="../../index.html" class="logo">
+        <img src="../../logo/logo.png" />
+      </a>
+      <!--menu-btn-->
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn">
+        <span class="nav-icon"></span>
+      </label>
+      <!--menu-->
+      <ul class="menu">
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="../../about.html">About</a></li>
+        <li><a href="../../contact.html">Contact</a></li>
+        <li><a href="../../privacypolicy.html">Privacy Policy</a></li>
+      </ul>
+    </nav>
+    <!--box-container-->
+    <div class="box-container">
+      <h1 class="title">Autofit & MinMax Display Grid</h1>
+      <pre class="line-numbers language-markup">
+        <code>
+          &lt;!DOCTYPE html&gt;
+          &lt;html lang=&quot;en&quot;&gt;
+          &lt;head&gt;
+            &lt;meta charset=&quot;UTF-8&quot;&gt;
+            &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+            &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot;&gt;
+            &lt;title&gt;CSS Grid&lt;/title&gt;
+            &lt;style&gt;
+              .container {
+                display: grid;
+                grid-gap: 1rem;
+                /* grid-template-columns: 112px 112px 112px;  */
+                /* grid-template-columns: 1fr 1fr 1fr;  */
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                /* justify-content: center;  */
+              }
+              .box {
+                border: 2px solid black;
+                background-color: rgb(245, 187, 101);
+                padding: 34px;
+              }
+            &lt;/style&gt;
+          &lt;/head&gt;
+          &lt;body&gt;
+            &lt;div class=&quot;container&quot;&gt;
+              &lt;div class=&quot;box&quot;&gt;
+                Item-1
+              &lt;/div&gt;
+              &lt;div class=&quot;box&quot;&gt;
+                Item-2
+              &lt;/div&gt;
+              &lt;div class=&quot;box&quot;&gt;
+                Item-3
+              &lt;/div&gt;
+              &lt;div class=&quot;box&quot;&gt;
+                Item-4
+              &lt;/div&gt;
+              &lt;div class=&quot;box&quot;&gt;
+                Item-5
+              &lt;/div&gt;
+              &lt;div class=&quot;box&quot;&gt;
+                Item-6
+              &lt;/div&gt;
+              &lt;div class=&quot;box&quot;&gt;
+                Item-7
+              &lt;/div&gt;
+              &lt;div class=&quot;box&quot;&gt;
+                Item-8
+              &lt;/div&gt;
+              &lt;div class=&quot;box&quot;&gt;
+                Item-9
+              &lt;/div&gt;
+              &lt;div class=&quot;box&quot;&gt;
+                Item-10
+              &lt;/div&gt;
+              &lt;div class=&quot;box&quot;&gt;
+                Item-11
+              &lt;/div&gt;
+              &lt;div class=&quot;box&quot;&gt;
+                Item-12
+              &lt;/div&gt;
+              &lt;div class=&quot;box&quot;&gt;
+                Item-13
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/body&gt;
+          &lt;/html&gt;
+        </code>
+      </pre>
+      <pre class="line-numbers language-markup">
+        <code>
+          # No source code
+        </code>
+      </pre>
+      <pre class="line-numbers language-javascript">
+        <code>
+          # No source code
+        </code>
+      </pre>
+    </div>
+    <div class="navigationBox" id="navigationBox">
+      <a  id="backPage" class="left" href="#">Back</a>
+      <a  id="nextPage" class="right" href="02_Console Loges Errors Warning.html">Next</a>
+    </div>
+  </section>
+  <!-- script -->
+  <script src="../../assets/js/prism/prism.js" type="text/javascript" charset="utf-8"></script>
+  <script src="../../assets/js/pages/html.js" type="text/javascript" charset="utf-8"></script>
+  <!-- script -->
+</body>
+</html>

@@ -1,0 +1,203 @@
+<!--Doctype html-->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, intial-scale=1.0">
+
+  <!--   Android Chrome  -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <!--   IOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <!-- Stylesheet Add -->
+  <link rel="stylesheet" href="../../assets/css/pages/html.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="../../assets/css/prism/prism.css" />
+  <!--fav-icon-->
+  <link rel="shortcut icon" href="../../favicon/fav-icon.png" />
+  <!-- Title -->
+  <title>Using Media Queries with CSS Grid</title>
+</head>
+<body>
+  <section class="main">
+    <!--navigation-->
+    <nav>
+      <!--logo-->
+      <a href="../../index.html" class="logo">
+        <img src="../../logo/logo.png" />
+      </a>
+      <!--menu-btn-->
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn">
+        <span class="nav-icon"></span>
+      </label>
+      <!--menu-->
+      <ul class="menu">
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="../../about.html">About</a></li>
+        <li><a href="../../contact.html">Contact</a></li>
+        <li><a href="../../privacypolicy.html">Privacy Policy</a></li>
+      </ul>
+    </nav>
+    <!--box-container-->
+    <div class="box-container">
+      <h1 class="title">Using Media Queries with CSS Grid</h1>
+      <pre style="height:500px" class="line-numbers language-markup">
+        <code>
+          &lt;!DOCTYPE html&gt;
+          &lt;html lang=&quot;en&quot;&gt;
+          
+          &lt;head&gt;
+            &lt;meta charset=&quot;UTF-8&quot;&gt;
+            &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+            &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot;&gt;
+            &lt;title&gt;CSS Grid + Media Queries&lt;/title&gt;
+          &lt;style&gt;
+            
+          &lt;/style&gt;
+          &lt;/head&gt;
+          
+          &lt;body&gt;
+            &lt;div class=&quot;container &quot;&gt;
+              &lt;nav class=&quot;bdr&quot;&gt;
+                &lt;span&gt;Home&lt;/span&gt;
+                &lt;span&gt;About&lt;/span&gt;
+                &lt;span&gt;Services&lt;/span&gt;
+                &lt;span&gt;Contact&lt;/span&gt;
+              &lt;/nav&gt;
+              &lt;section class=&quot;bdr&quot;&gt;
+                &lt;h2&gt;Learn CSS in hindi&lt;/h2&gt;
+                &lt;p&gt;
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque nemo cupiditate distinctio et expedita. Delectus quaerat accusamus inventore tenetur error quam minus, provident fugit repellat necessitatibus? Architecto itaque quidem sequi blanditiis, facere accusantium hic.lorem122 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi dignissimos ut rerum aut. Fuga delectus suscipit debitis libero. Itaque, ipsum dignissimos consequatur repellat distinctio enim dolorem, facilis esse dolorum illum earum aliquid numquam blanditiis ipsam reiciendis iure nobis quo cum maiores aperiam pariatur. Quas aliquam, quae non rerum, architecto eligendi blanditiis officia placeat dolor soluta explicabo. Voluptatem tenetur perspiciatis neque quidem ducimus velit id explicabo, illo magni quis voluptatum. Tempora quod, dicta illum ratione quo at dolores cupiditate aperiam laboriosam amet sequi quaerat similique incidunt eius deleniti deserunt accusamus eligendi nemo est veritatis fugiat ducimus! Modi ut vel et nihil asperiores mollitia obcaecati, neque accusantium corrupti, quisquam voluptatem rem? Possimus tempore et fugit cumque culpa aliquam doloremque odio hic, cum, minima nostrum!
+                &lt;/p&gt;
+              &lt;/section&gt;
+              &lt;aside class=&quot;bdr&quot;&gt;
+                &lt;h1&gt;More about us&lt;/h1&gt;
+              &lt;/aside&gt;
+            &lt;/div&gt;
+            &lt;footer class=&quot;bdr&quot;&gt;
+              Copyright CodeWithHarry 2020
+            &lt;/footer&gt;
+          
+          &lt;/body&gt;
+          
+          &lt;/html&gt;
+        </code>
+      </pre>
+      <pre style="height:500px" class="line-numbers language-css">
+        <code>
+          .container {
+              display: grid;
+              grid-gap: 1rem;
+              grid-template-areas:
+              &#39;navbar navbar navbar navbar&#39;
+              &#39;section section section aside&#39;
+              &#39;footer footer footer footer &#39;;
+            }
+          
+          @media only screen and (max-width:300px) {
+              body {
+                background-color: red;
+              }
+              .container {
+                grid-template-areas:
+                &#39;navbar navbar navbar navbar&#39;
+                &#39;section section section section&#39;
+                &#39;aside aside aside aside&#39;
+                &#39;footer footer footer footer &#39;;
+              }
+              aside {
+                display: none;
+              }
+              span {
+                display: block;
+                text-align: center;
+              }
+            }
+          
+          @media only screen and (min-width: 300px) and (max-width:500px) {
+              body {
+                background-color: blue;
+              }
+              .container {
+                grid-template-areas:
+                &#39;navbar navbar navbar navbar&#39;
+                &#39;section section section section&#39;
+                &#39;aside aside aside aside&#39;
+                &#39;footer footer footer footer &#39;;
+              }
+              aside {
+                display: none;
+              }
+              span {
+                display: block;
+                text-align: center;
+              }
+            }
+          
+          @media (min-width: 500px) and (max-width:800px) {
+              body {
+                background-color: yellow;
+              }
+          
+              .container {
+                grid-template-areas:
+                &#39;navbar navbar navbar navbar&#39;
+                &#39;section section section section&#39;
+                &#39;aside aside aside aside&#39;
+                &#39;footer footer footer footer &#39;;
+              }
+              span {
+                display: block;
+                text-align: center;
+              }
+            }
+          
+          @media (min-width: 800px) {
+              body {
+                background-color: green;
+              }
+            }
+          
+            .bdr {
+              border: 2px solid black;
+              padding: 10px 23px;
+              background-color: wheat;
+            }
+          
+            nav {
+              grid-area: navbar;
+            }
+          
+            section {
+              grid-area: section;
+            }
+          
+            aside {
+              grid-area: aside;
+            }
+          
+            footer {
+              grid-area: footer;
+              text-align: center;
+            }
+        </code>
+      </pre>
+      <pre class="line-numbers language-javascript">
+        <code>
+          # No source code
+        </code>
+      </pre>
+    </div>
+    <div class="navigationBox" id="navigationBox">
+      <a  id="backPage" class="left" href="#">Back</a>
+      <a  id="nextPage" class="right" href="02_Console Loges Errors Warning.html">Next</a>
+    </div>
+  </section>
+  <!-- script -->
+  <script src="../../assets/js/prism/prism.js" type="text/javascript" charset="utf-8"></script>
+  <script src="../../assets/js/pages/html.js" type="text/javascript" charset="utf-8"></script>
+  <!-- script -->
+</body>
+</html>

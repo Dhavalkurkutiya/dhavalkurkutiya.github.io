@@ -1,0 +1,84 @@
+{
+  "status":"ok","totalResults":65,"cardData":[
+    {
+    "id":"1",
+    "url":"Introduction to HTML, CSS, JavaScript & How websites work.html",
+    "title":"Introduction to HTML, CSS, JavaScript & How websites work",
+    "content":"I’m sorry, this question would be out of my expertise.",
+    "publishedAt":"10:25 pm"
+  },
+    {
+      "id":"2",
+      "url":"Installing VS Code & Live Server setup.html",
+      "title":"Installing VS Code & Live Server setup",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"11:20 pm"
+    },
+    {
+      "id":"3",
+      "url":"Basic Structure of a Website.html",
+      "title":" Basic Structure of a Website ",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"10:56 pm"},
+    {
+      "id":"4",
+      "url":"Title, Script, Link & Meta Tags.html",
+      "title":"Title, Script, Link & Meta Tags",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"10:56 pm"},
+    {
+      "id":"5",
+      "url":"Headings & Paragraphs.html",
+      "title":"Headings & Paragraphs in HTML",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"10:04 pm"}, 
+    {
+      "id":"6",
+      "url":"Img and Anchor tags.html",
+      "title":"Img and Anchor tags in HTML",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "id":"7",
+      "url":"Lists and Tables.html",
+      "title":"Lists and Tables in HTML ",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "id":"8",
+      "url":"Forms & Input Tags.html",
+      "title":"Forms & Input Tags in HTML ",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "id":"9",
+      "url":"Inline & Block Elements.html",
+      "title":"Inline & Block Elements in HTML ",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "id":"10",
+      "url":"Ids & Classes in HTML.html",
+      "title":"Ids & Classes in HTML",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "id":"11",
+      "url":"Entities in HTML.html",
+      "title":"Entities in HTML",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "id":"12",
+      "url":"Semantic Tags in HTML.html",
+      "title":"Semantic Tags in HTML ",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    }
+    ]}

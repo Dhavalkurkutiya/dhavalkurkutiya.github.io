@@ -1,0 +1,135 @@
+<!--Doctype html-->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, intial-scale=1.0">
+
+  <!--   Android Chrome  -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <!--   IOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <!-- Stylesheet Add -->
+  <link rel="stylesheet" href="../../assets/css/pages/html.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="../../assets/css/prism/prism.css" />
+  <!--fav-icon-->
+  <link rel="shortcut icon" href="../../favicon/fav-icon.png" />
+  <!-- Title -->
+  <title>More on CSS Selectors</title>
+</head>
+<body>
+  <section class="main">
+    <!--navigation-->
+    <nav>
+      <!--logo-->
+      <a href="../../index.html" class="logo">
+        <img src="../../logo/logo.png" />
+      </a>
+      <!--menu-btn-->
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn">
+        <span class="nav-icon"></span>
+      </label>
+      <!--menu-->
+      <ul class="menu">
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="../../about.html">About</a></li>
+        <li><a href="../../contact.html">Contact</a></li>
+        <li><a href="../../privacypolicy.html">Privacy Policy</a></li>
+      </ul>
+    </nav>
+    <!--box-container-->
+    <div class="box-container">
+      <h1 class="title">More on CSS Selectors</h1>
+      <pre class="line-numbers language-markup">
+        <code>
+          &lt;!DOCTYPE html&gt;
+          &lt;html lang=&quot;en&quot;&gt;
+          &lt;head&gt;
+            &lt;meta charset=&quot;UTF-8&quot;&gt;
+            &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+            &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot;&gt;
+            &lt;title&gt;More on selectors&lt;/title&gt;
+          &lt;/head&gt;
+          &lt;style&gt;
+            h1 {
+              background-color: red;
+              color: black;
+              font-weight: bold;
+              text-align: center;
+            }
+          
+            /* if p is contained by any li which is contained by div */
+            /* div li p{
+                  color: yellow;
+                  background-color: green;
+                  font-weight: bold;
+              } */
+          
+            /* if p is right inside div then this CSS will be applied */
+            /* div &gt; p{
+                  color: yellow;
+                  background-color: green;
+                  font-weight: bold;
+              } */
+          
+            /* if p is right after div i.e p is the next sibling of div*/
+            /* div + p{
+                  color: white;
+                  background-color: rgb(238, 137, 137);
+              } */
+          
+          &lt;/style&gt;
+          &lt;body&gt;
+            &lt;h1&gt;This is more on selectors&lt;/h1&gt;
+            &lt;div class=&quot;container&quot;&gt;
+              &lt;div class=&quot;row&quot;&gt;
+                &lt;ul&gt;
+                  &lt;li class=&quot;item&quot;&gt;&lt;p&gt;
+                    this is another paragraph inside li
+                  &lt;/p&gt;
+                  &lt;/li&gt;
+                  &lt;li&gt;this will not get affected&lt;/li&gt;
+                  &lt;p&gt;
+                    this is a para inside ul
+                  &lt;/p&gt;
+                &lt;/ul&gt;
+                &lt;p&gt;
+                  This is a paragraph
+                &lt;/p&gt;
+              &lt;/div&gt;
+              &lt;p&gt;
+                This is another paragraph
+              &lt;/p&gt;
+            &lt;/div&gt;
+            &lt;p&gt;
+              this is outermost paragraph
+            &lt;/p&gt;
+          &lt;/body&gt;
+          &lt;/html&gt;
+        </code>
+      </pre>
+      <pre class="line-numbers language-markup">
+        <code>
+          # No source code
+        </code>
+      </pre>
+      <pre class="line-numbers language-javascript">
+        <code>
+          # No source code
+        </code>
+      </pre>
+    </div>
+    <div class="navigationBox" id="navigationBox">
+      <a  id="backPage" class="left" href="#">Back</a>
+      <a  id="nextPage" class="right" href="02_Console Loges Errors Warning.html">Next</a>
+    </div>
+  </section>
+  <!-- script -->
+  <script src="../../assets/js/prism/prism.js" type="text/javascript" charset="utf-8"></script>
+  <script src="../../assets/js/pages/html.js" type="text/javascript" charset="utf-8"></script>
+  <!-- script -->
+</body>
+</html>

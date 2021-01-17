@@ -1,0 +1,211 @@
+{
+  "status":"ok","totalResults":70,"cardData":[{
+    "id":"1",
+    "url":"java_01.html",
+    "title":"Introduction to Java + Installing Java JDK and IntelliJ IDEA for Java",
+    "content":"I’m sorry, this question would be out of my expertise.",
+    "publishedAt":"10:25 pm"
+  },
+    {
+      "id":"2",
+      "url":"java_02.html",
+      "title":"Understanding our First Java Hello World Program",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"11:20 pm"
+    },
+    {
+      "id":"3",
+      "url":"java_03.html",
+      "title":"Variables and Data Types in Java Programming",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"10:56 pm"
+    },
+    {
+      "id":"4",
+      "url":"java_04.html",
+      "title":"Literals in Java",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"10:56 pm"
+    },
+    {
+      "id":"5",
+      "url":"java_05.html",
+      "title":"Getting User Input in Java",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"10:04 pm"
+    },
+    {
+      "id":"6",
+      "url":"java_06.html",
+      "title":"Exercise-1 CBSE Board Percentage Calculator (Questions)",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "id":"7",
+      "url":"java_07.html",
+      "title":"Java Practice Problems With Solution",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "id":"8",
+      "url":"java_08.html",
+      "title":"Operators, Types of Operators & Expressions in Java",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "id":"9",
+      "url":"java_09.html",
+      "title":"Associativity of Operators in Java",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "id":"10",
+      "url":"java_10.html",
+      "title":"Data Type of Expressions & Increment/Decrement Operators",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "id":"11",
+      "url":"java_11.html",
+      "title":"Exercise-1  Solutions + Shoutouts",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "id":"12",
+      "url":"java_12.html",
+      "title":"Chapter 2 - Practice Set (Java Practice Questions)",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "id":"13",
+      "url":"java_13.html",
+      "title":"Introduction to Strings",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "id":"14",
+      "url":"java_14.html",
+      "title":"String Methods in Java",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "id":"15",
+      "url":"java_15.html",
+      "title":"Practice Set on Java Strings (Must Solve!)",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "id":"16",
+      "url":"java_16.html",
+      "title":"If-else Statement in Java",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "id":"17",
+      "url":"java_17.html",
+      "title":"Relational and Logical Operators in Java",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "id":"18",
+      "url":"java_18.html",
+      "title":"Switch Case Statements in Java",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "id":"19",
+      "url":"java_19.html",
+      "title":"Practice Questions On Conditionals & Switch Case",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "id":"20",
+      "url":"java_20.html",
+      "title":"Java Programming Exercise 2: Rock, Paper Scissors Game in Java",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "id":"21",
+      "url":"java_21.html",
+      "title":"While Loops in Java",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "id":"22",
+      "url":"java_22.html",
+      "title":"The do-while loop in Java",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "id":"23",
+      "url":"java_23.html",
+      "title":"The for Loop in Java",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "id":"24",
+      "url":"java_24.html",
+      "title":"Break and continue in Java",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "id":"25",
+      "url":"java_25.html",
+      "title":"Practice Questions on Loops",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "id":"26",
+      "url":"java_26.html",
+      "title":"Introduction to Arrays",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "id":"27",
+      "url":"java_27.html",
+      "title":"For Each Loop in Java",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "id":"28",
+      "url":"java_28.html",
+      "title":"Multidimensional Arrays in Java",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "id":"29",
+      "url":"java_29.html",
+      "title":"Practice Questions on Arrays in Java",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "id":"30",
+      "url":"java_30.html",
+      "title":"How to Make IntelliJ IDEA look Amazing!",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    }]}

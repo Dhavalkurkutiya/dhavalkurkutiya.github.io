@@ -1,0 +1,232 @@
+{
+  "status":"ok","totalResults":65,"cardData":[{
+    "Id":"1",
+    "url":"Introduction to CSS.html",
+    "title":"Introduction to CSS",
+    "content":"I’m sorry, this question would be out of my expertise.",
+    "publishedAt":"10:25 pm"
+  },
+    {
+      "Id":"2",
+      "url":"Inline, Internal & External CSS.html",
+      "title":"Inline, Internal & External CSS ",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"11:20 pm"
+    },
+    {
+      "Id":"3",
+      "url":"Selectors in CSS.html",
+      "title":"Selectors in CSS",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"10:56 pm"
+    },
+    {
+      "Id":"4",
+      "url":"Using Chrome Developer Tools.html",
+      "title":"Using Chrome Developer Tools",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"10:56 pm"
+    },
+    {
+      "Id":"5",
+      "url":"Fonts In CSS.html",
+      "title":"Fonts In CSS",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"10:04 pm"
+    },
+    {
+      "Id":"6",
+      "url":"Colors In CSS.html",
+      "title":"Colors In CSS",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "Id":"7",
+      "url":"Borders and Backgrounds.html",
+      "title":"Borders and Backgrounds",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "Id":"8",
+      "url":"CSS Box Model, Margin and Padding.html",
+      "title":"CSS Box Model, Margin and Padding",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "Id":"9",
+      "url":"Float & Clear Explaine.html",
+      "title":"Float & Clear Explaine  ",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "Id":"10",
+      "url":"Styling Links & Buttons.html",
+      "title":"Styling Links & Buttons  ",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "Id":"11",
+      "url":"Creating a Navigation Menu.html",
+      "title":"Creating a Navigation Menu",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "Id":"12",
+      "url":"CSS Display Property.html",
+      "title":"CSS Display Property  ",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "Id":"13",
+      "url":"Position absolute, relative, fixed and sticky in CSS.html",
+      "title":"Position absolute, relative, fixed and sticky in CSS  ",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "Id":"14",
+      "url":"Project-1  Creating a Simple Website.html",
+      "title":"Project-1  Creating a Simple Website",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "Id":"15",
+      "url":"Project-1  Creating a Simple Website.html",
+      "title":"Visibility  z-index Explained  ",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "Id":"16",
+      "url":"CSS Flexbox.html",
+      "title":"CSS Flexbox",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "Id":"17",
+      "url":"Em, rem, vh and vw units  Responsive design Explained.html",
+      "title":"Em, rem, vh and vw units  Responsive design Explained  ",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "Id":"18",
+      "url":"Media Queries Explained.html",
+      "title":"Media Queries Explained ",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "Id":"19",
+      "url":"More on CSS Selectors.html",
+      "title":"More on CSS Selectors ",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "Id":"20",
+      "url":"Attribute & nth child pseudo Selectors.html",
+      "title":"Attribute & nth child pseudo Selectors ",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "Id":"21",
+      "url":"Before and After Pseudo Selectors.html",
+      "title":"Before and After Pseudo Selectors ",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "Id":"22",
+      "url":"Box Shadow and Text Shadow.html",
+      "title":"Box Shadow and Text Shadow ",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "Id":"23",
+      "url":"Variables & Custom Properties.html",
+      "title":"Variables & Custom Properties ",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "Id":"24",
+      "url":"Creating Animations & Keyframes.html",
+      "title":"Creating Animations & Keyframes ",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "Id":"25",
+      "url":"Creating Transitions in CSs.html",
+      "title":"Creating Transitions in CSS ",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "Id":"26",
+      "url":"Transform property in CSS.html",
+      "title":"Transform property in CSS  ",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "Id":"27",
+      "url":"Creating Fully Responsive Website Project Using HTML  CSS.html",
+      "title":"Creating Fully Responsive Website Project Using HTML  CSS",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "Id":"28",
+      "url":"CSS Grid Introduction Creating A Basic Grid.html",
+      "title":"CSS Grid Introduction Creating A Basic Grid  ",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "Id":"29",
+      "url":"Creating Rows & Gaps in Grid.html",
+      "title":"Creating Rows & Gaps in Grid  ",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "Id":"30",
+      "url":"Spanning Multiple Rows and Columns.html",
+      "title":"Spanning Multiple Rows and Columns",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "Id":"31",
+      "url":"Autofit & MinMax Display Grid.html",
+      "title":"Autofit & MinMax Display Grid",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "Id":"32",
+      "url":"Creating Layouts Using Grid Template Area.html",
+      "title":"Creating Layouts Using Grid Template Area",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    },
+    {
+      "Id":"33",
+      "url":"Using Media Queries with CSS Grid.html",
+      "title":"Using Media Queries with CSS Grid",
+      "content":"I’m sorry, this question would be out of my expertise.",
+      "publishedAt":"12:56 pm"
+    }]}

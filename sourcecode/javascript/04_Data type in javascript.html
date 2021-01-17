@@ -1,0 +1,137 @@
+<!--Doctype html-->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, intial-scale=1.0">
+
+  <!--   Android Chrome  -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <!--   IOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <!-- Stylesheet Add -->
+  <link rel="stylesheet" href="../../assets/css/pages/javascript.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="../../assets/css/prism/prism.css" />
+  <!--fav-icon-->
+  <link rel="shortcut icon" href="../../favicon/fav-icon.png" />
+  <!-- Title -->
+  <title>4: Data type in javascript</title>
+</head>
+<body>
+  <section class="main">
+    <!--navigation-->
+    <nav>
+      <!--logo-->
+      <a href="../../index.html" class="logo">
+        <img src="../../logo/logo.png" />
+      </a>
+      <!--menu-btn-->
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn">
+        <span class="nav-icon"></span>
+      </label>
+      <!--menu-->
+      <ul class="menu">
+        <li><a class="active" href="../../index.html">Home</a></li>
+        <li><a href="../../about.html">About</a></li>
+        <li><a href="../../contact.html">Contact</a></li>
+        <li><a href="../../privacypolicy.html">Privacy Policy</a></li>
+      </ul>
+    </nav>
+    <!--box-container-->
+    <div class="box-container">
+      <h1 class="title">4: Data type in javascript</h1>
+      <pre class="line-numbers language-markup">
+        <code>
+          &lt;!DOCTYPE html&gt;
+          &lt;html&gt;
+          &lt;head&gt;
+            &lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
+            &lt;meta charset=&quot;UTF-8&quot;&gt;
+            &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1, shrink-to-fit=no&quot;&gt;
+            &lt;!-- Android Chrome --&gt;
+            &lt;meta name=&quot;mobile-web-app-capable&quot; content=&quot;yes&quot;&gt;
+            &lt;!-- ios --&gt;
+            &lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot;&gt;
+            &lt;title&gt;04_Data type in javascript&lt;/title&gt;
+          &lt;/head&gt;
+          &lt;body&gt;
+            &lt;h2&gt;04_Data type in javascript&lt;/h2&gt;
+            &lt;script src=&quot;
+            js/04_script.js&quot; type=&quot;text/javascript&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+           &lt;/body&gt;
+          &lt;/html&gt;
+        </code>
+      </pre>
+      <pre class="line-numbers language-css">
+        <code>
+         h2 {
+            text-align: center;
+            padding: 10px 20px 10px 20px;
+            background: #edeef6;
+            border-radius: 5px;
+            color: #777474;
+          }
+        </code>
+      </pre>
+      <pre class="line-numbers language-javascript">
+        <code>
+        // ======== Primitive data types ========
+
+        // String
+        let name = "harry";
+        console.log("My string is " + name);
+        console.log("Data type is " + (typeof name));
+        
+        // Numbers
+        let marks = 34.4;
+        console.log("Data type is " + (typeof marks));
+        
+        // Boolean
+        let isDriver = true;
+        console.log("Data type is " + (typeof isDriver));
+        
+        // Null
+        let nullVar = null;
+        console.log("Data type is " + (typeof nullVar));
+        
+        // Undefined
+        let undef = undefined;
+        console.log("Data type is " + (typeof undef));
+        
+        //  ======== Reference Data Types  ========
+        // Arrays
+        let myarr = [1, 2, 3, 4, false, "string"];
+        console.log("Data type is " + (typeof myarr));
+        
+        //  ======== Object Literals  ========
+        let stMarks = {
+            harry: 89,
+            Shubham: 36,
+            Rohan: 34
+        }
+        console.log( typeof stMarks);
+        
+        function findName() {
+            
+        }
+        console.log( typeof findName);
+        
+        let date = new Date();
+        console.log( typeof date);
+        </code>
+      </pre>
+    </div>
+    <div class="navigationBox">
+      <a id="backPage" class="left" href="03_Variables let, const & var in Javascript.html">Back</a>
+      <a id="nextPage" class="right" href="05_JavaScript Type Conversion & Coercion.html">Next</a>
+    </div>
+  </section>
+  <!-- script -->
+  <script src="../../assets/js/prism/prism.js" type="text/javascript" charset="utf-8"></script>
+  <script src="../../assets/js/pages/javascript.js" type="text/javascript" charset="utf-8"></script>
+  <!-- script -->
+</body>
+</html>
