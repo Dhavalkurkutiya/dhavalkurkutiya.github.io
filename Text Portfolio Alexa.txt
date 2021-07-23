@@ -46,5 +46,3 @@ footer__social
 https://www.facebook.com/
 https://www.instagram.com/
 https://twitter.com/
-
-
