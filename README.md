@@ -6,7 +6,7 @@
 # Hi, I'm DhavalKurkutiya! 👋
 
 
-### Responsive Portfolio Website Alexa [DhavalKurkutiya](https://pip.pypa.io/en/stable/) 
+### Responsive Portfolio Website Alexa [DhavalKurkutiya](https://dhavalkurkutiya.github.io/) 
 
 
 Responsive Portfolio Website Using Html, Css and JavaScript, With a beautiful user interface. It contains a Header, Home, , Skills, Qualification, Services, Portfolio, Project in mind, Testimonial, Contact and Footer.
