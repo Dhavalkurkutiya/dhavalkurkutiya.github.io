@@ -1010,6 +1010,7 @@ img {
 ::-webkit-scrollbar-thumb:hover{
     background-color: var(--text-color-light);
 }
+
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
 @media screen and (max-width: 350px) {
