@@ -1,0 +1,48 @@
+
+     body {
+      margin: 0 0 3rem 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+   
+    p {
+      color: #777474;
+    }
+    
+    li {
+      list-style-type: none;
+      color: #777474;
+    }
+    .borderBottom {
+      border-bottom: 5px solid rgb(74,105,250);
+      border-radius: 5px;
+      margin: 10px;
+      padding: 1rem 0 1rem;
+    }
+    
+    .section{
+      padding: 1rem 0 2rem;
+    }
+    
+    .section__title {
+      border-radius: 10px;
+      box-shadow: rgba(90, 118, 253, 0.15) 2px 2px 20px;
+      color: black;
+      margin-top: 10px;
+      padding: 1rem;
+      text-align: center
+    }
+    
+    .section__post {
+      border-radius: 10px;
+      box-shadow: rgba(90, 118, 253, 0.15) 2px 2px 20px;
+      color: black;
+      padding: 0.5rem 0 1rem;
+    }
+    
+    .ul__list{
+      text-align: center;
+    }
+  
